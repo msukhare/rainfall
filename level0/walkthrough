@@ -15,7 +15,7 @@ Nous avons donc fait:
 
 b * 0x08048ed9
 r
-print $0x1a7
+print 0x1a7
 
 cela nous a permit de voir avec quoi l'argument passe en parametre est compare
 Nous avons trouve 423.
