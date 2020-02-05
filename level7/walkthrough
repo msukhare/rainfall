@@ -9,7 +9,7 @@ A travers ce binaire, on se rend compte de plusieurs choses:
 - la variable 'c' recupere le path du fichier '.pass' grace a son appel dans la fonction 'fgets'
   qui le prend en argument, ainsi que le fichier 'file' a ouvrir.
 
-- Une fonction 'puts' quelquconaue est appellee apres le fgets.
+- Une fonction 'puts' quelquconque est appellee apres le fgets.
 
 Il nous suffit alors d'executer la fonction 'm' qui va afficher notre variable 'c' a la place de 'puts'.
 Pour se faire, il nous suffit juste de donner l'adresse de la fonction 'm' a la fonction 'puts'.
