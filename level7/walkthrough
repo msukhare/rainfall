@@ -21,7 +21,7 @@ Cela nouss est possible grace aux appels de fonction:
 
 qui nous permettra d'ecraser une adresse memoire, notamment celle de la fonction 'puts'.
 
-Pour trouver l'aadresse de 'putss', on utilise la commande suivante:
+Pour trouver l'adresse de 'puts', on utilise la commande suivante:
 
 "objdump -R level7"
 
