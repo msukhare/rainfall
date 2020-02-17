@@ -19,6 +19,9 @@ $0x1025544 == 0x0102 = 258, 0x5544 = 21828
 
 Nous devons donc ecrire 250 sur les 2 bytes et 21570 sur deux autre bytes.
 
+pour trouver 12 et 13 nous avons passer %p pour savoir ou se situe notre chaine
+de caractere dans la stack.
+
 Puis:
 
 cat /tmp/level5 - | ./level4
