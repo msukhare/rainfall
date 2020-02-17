@@ -4,7 +4,7 @@ void	v(void)
 
 	fgets(k, 0x200, stdin);
 	printf(k);
-	if (m = 0x40)
+	if (m == 0x40)
 	{
 		fwrite("Wait, what ?!\n", 1, 0xc, stdout);
 		system("bin/sh");
